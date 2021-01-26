@@ -4,4 +4,10 @@
   "env": {
     "MONGODB_URI": "mongodb+srv://admin:admin1@cluster0.urrdj.mongodb.net/DroidDoughnuts?retryWrites=true&w=majority"
   }
+    "builds": [
+    {"src": "/server/app.py", "use": "@now/python"}
+  ],
+  "routes": [
+    {"src": "/(.*)", "dest": "server/app.py"}
+  ]
 }
