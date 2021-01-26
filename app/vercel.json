@@ -1,0 +1,7 @@
+{
+  "name": "api-with-mongo-db",
+  "version": 2,
+  "env": {
+    "MONGODB_URI": "mongodb+srv://admin:admin1@cluster0.urrdj.mongodb.net/DroidDoughnuts?retryWrites=true&w=majority"
+  }
+}
