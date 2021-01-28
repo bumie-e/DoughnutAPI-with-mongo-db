@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from routes.doughnut import router as DonutRouter
+from server.routes.doughnut import router as DonutRouter
 
 app = FastAPI()
 
