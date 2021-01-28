@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Body
 from fastapi.encoders import jsonable_encoder
-from models import doughnut
+from server.models import doughnut
 
 router = APIRouter()
 
