@@ -6,22 +6,16 @@ router = APIRouter()
 
 doughnuts = {
     "item1":{
-        "ids": "7789",
          "name": "Glaced fritt Doughnut",
          "image": "5677.jpg",
          "price": 780,
-         "description": "This doughnut is glaced with icing sugar and fritt. Delicious!",
-         "topping": "Icing sugar",
-         "preparation_time": "20 mins"
+         "description": "This doughnut is glaced with icing sugar and fritt. Delicious!"
     },
     "item2":{
-        "ids": "7790",
          "name": "Glaced Sprinkle Doughnut",
          "image": "5877.jpg",
          "price": 900,
-         "description": "This doughnut is glaced with Sprinkles. Delicious!",
-         "topping": "Sprinkles",
-         "preparation_time": "25 mins"
+         "description": "This doughnut is glaced with Sprinkles. Delicious!"
     }
 }
 
